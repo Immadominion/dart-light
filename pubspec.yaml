@@ -3,7 +3,7 @@ description: |
   Dart SDK for Light Protocol ZK Compression on Solana.
   Provides type-safe compressed account operations, compressed token transfers,
   and seamless integration with the Light Protocol compression infrastructure.
-version: 0.1.0
+version: 0.1.0-beta.1
 homepage: https://github.com/Lightprotocol/light-protocol
 repository: https://github.com/Lightprotocol/light-protocol
 issue_tracker: https://github.com/Lightprotocol/light-protocol/issues
