@@ -1,0 +1,17 @@
+# Flutter/Dart/Pub
+pubspec.lock
+.dart_tool/
+.packages
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
