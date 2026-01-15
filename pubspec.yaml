@@ -1,0 +1,52 @@
+name: light_sdk
+description: |
+  Dart SDK for Light Protocol ZK Compression on Solana.
+  Provides type-safe compressed account operations, compressed token transfers,
+  and seamless integration with the Light Protocol compression infrastructure.
+version: 0.1.0
+homepage: https://github.com/Lightprotocol/light-protocol
+repository: https://github.com/Lightprotocol/light-protocol
+issue_tracker: https://github.com/Lightprotocol/light-protocol/issues
+documentation: https://www.zkcompression.com/
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  # Borsh serialization (from espresso-cash)
+  borsh_annotation: ^0.3.1+5
+
+  # Core Dart dependencies (alphabetically sorted)
+  collection: ^1.18.0
+  convert: ^3.1.1
+  crypto: ^3.0.3
+  equatable: ^2.0.5
+  http: ^1.2.0
+  meta: ^1.16.0
+
+  # Cryptographic primitives (Keccak256, etc.)
+  pointycastle: ^3.9.1
+
+  # Solana core - from espresso-cash (DO NOT use any other Solana package)
+  solana:
+    path: ../espresso-cash-public/packages/solana
+
+dev_dependencies:
+  lints: ^6.0.0
+  mockito: ^5.4.4
+  test: ^1.25.8
+
+# Not publishing to pub.dev (uses path dependencies)
+publish_to: none
+
+# Override dependencies for consistency
+dependency_overrides:
+  solana:
+    path: ../espresso-cash-public/packages/solana
+
+topics:
+  - blockchain
+  - light-protocol
+  - solana
+  - web3
+  - zk-compression
