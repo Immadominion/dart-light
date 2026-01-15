@@ -76,6 +76,24 @@
       "dependencies": []
     },
     {
+      "name": "solana",
+      "version": "0.31.2+1",
+      "dependencies": [
+        "bip39",
+        "borsh_annotation",
+        "collection",
+        "convert",
+        "cryptography",
+        "decimal",
+        "ed25519_hd_key",
+        "freezed_annotation",
+        "http",
+        "json_annotation",
+        "typed_data",
+        "web_socket_channel"
+      ]
+    },
+    {
       "name": "pointycastle",
       "version": "3.9.1",
       "dependencies": [
@@ -427,6 +445,58 @@
       ]
     },
     {
+      "name": "json_annotation",
+      "version": "4.9.0",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
+      "name": "freezed_annotation",
+      "version": "2.4.4",
+      "dependencies": [
+        "collection",
+        "json_annotation",
+        "meta"
+      ]
+    },
+    {
+      "name": "ed25519_hd_key",
+      "version": "2.3.0",
+      "dependencies": [
+        "crypto",
+        "pinenacl"
+      ]
+    },
+    {
+      "name": "decimal",
+      "version": "3.2.4",
+      "dependencies": [
+        "intl",
+        "rational"
+      ]
+    },
+    {
+      "name": "cryptography",
+      "version": "2.9.0",
+      "dependencies": [
+        "collection",
+        "crypto",
+        "ffi",
+        "meta",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "bip39",
+      "version": "1.0.6",
+      "dependencies": [
+        "crypto",
+        "hex",
+        "pointycastle"
+      ]
+    },
+    {
       "name": "js",
       "version": "0.7.2",
       "dependencies": []
@@ -566,89 +636,6 @@
       "dependencies": []
     },
     {
-      "name": "file",
-      "version": "7.0.1",
-      "dependencies": [
-        "meta",
-        "path"
-      ]
-    },
-    {
-      "name": "fixnum",
-      "version": "1.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "solana",
-      "version": "0.31.2+1",
-      "dependencies": [
-        "bip39",
-        "borsh_annotation",
-        "collection",
-        "convert",
-        "cryptography",
-        "decimal",
-        "ed25519_hd_key",
-        "freezed_annotation",
-        "http",
-        "json_annotation",
-        "typed_data",
-        "web_socket_channel"
-      ]
-    },
-    {
-      "name": "json_annotation",
-      "version": "4.9.0",
-      "dependencies": [
-        "meta"
-      ]
-    },
-    {
-      "name": "freezed_annotation",
-      "version": "2.4.4",
-      "dependencies": [
-        "collection",
-        "json_annotation",
-        "meta"
-      ]
-    },
-    {
-      "name": "ed25519_hd_key",
-      "version": "2.3.0",
-      "dependencies": [
-        "crypto",
-        "pinenacl"
-      ]
-    },
-    {
-      "name": "decimal",
-      "version": "3.2.4",
-      "dependencies": [
-        "intl",
-        "rational"
-      ]
-    },
-    {
-      "name": "cryptography",
-      "version": "2.9.0",
-      "dependencies": [
-        "collection",
-        "crypto",
-        "ffi",
-        "meta",
-        "typed_data"
-      ]
-    },
-    {
-      "name": "bip39",
-      "version": "1.0.6",
-      "dependencies": [
-        "crypto",
-        "hex",
-        "pointycastle"
-      ]
-    },
-    {
       "name": "pinenacl",
       "version": "0.6.0",
       "dependencies": []
@@ -675,6 +662,19 @@
     {
       "name": "hex",
       "version": "0.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "file",
+      "version": "7.0.1",
+      "dependencies": [
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "fixnum",
+      "version": "1.1.1",
       "dependencies": []
     },
     {
