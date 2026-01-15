@@ -28,8 +28,7 @@ dependencies:
   pointycastle: ^3.9.1
 
   # Solana core - from espresso-cash (DO NOT use any other Solana package)
-  solana:
-    path: ../espresso-cash-public/packages/solana
+  solana: ^0.31.2
 
 dev_dependencies:
   lints: ^6.0.0
@@ -41,8 +40,7 @@ publish_to: none
 
 # Override dependencies for consistency
 dependency_overrides:
-  solana:
-    path: ../espresso-cash-public/packages/solana
+  solana: ^0.31.2
 
 topics:
   - blockchain

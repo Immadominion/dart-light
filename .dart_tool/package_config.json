@@ -26,28 +26,10 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "base_codecs",
-      "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/base_codecs-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "base_x",
-      "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/base_x-2.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "bip39",
       "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/bip39-1.0.6",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "blockchain_utils",
-      "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/blockchain_utils-5.4.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
     },
     {
       "name": "boolean_selector",
@@ -60,12 +42,6 @@
       "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/borsh_annotation-0.3.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
-    },
-    {
-      "name": "bs58",
-      "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/bs58-1.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "build",
@@ -114,12 +90,6 @@
       "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/convert-3.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
-    },
-    {
-      "name": "coral_xyz",
-      "rootUri": "../../dart-coral-xyz",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
     },
     {
       "name": "coverage",
@@ -357,9 +327,9 @@
     },
     {
       "name": "solana",
-      "rootUri": "../../espresso-cash-public/packages/solana",
+      "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/solana-0.31.2+1",
       "packageUri": "lib/",
-      "languageVersion": "3.7"
+      "languageVersion": "3.2"
     },
     {
       "name": "source_gen",

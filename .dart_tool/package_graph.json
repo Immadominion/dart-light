@@ -5,12 +5,11 @@
   "packages": [
     {
       "name": "light_sdk",
-      "version": "0.1.0",
+      "version": "0.1.0-beta.1",
       "dependencies": [
         "borsh_annotation",
         "collection",
         "convert",
-        "coral_xyz",
         "crypto",
         "equatable",
         "http",
@@ -22,24 +21,6 @@
         "lints",
         "mockito",
         "test"
-      ]
-    },
-    {
-      "name": "solana",
-      "version": "0.31.2",
-      "dependencies": [
-        "bip39",
-        "borsh_annotation",
-        "collection",
-        "convert",
-        "cryptography",
-        "decimal",
-        "ed25519_hd_key",
-        "freezed_annotation",
-        "http",
-        "json_annotation",
-        "typed_data",
-        "web_socket_channel"
       ]
     },
     {
@@ -93,29 +74,6 @@
       "name": "lints",
       "version": "6.0.0",
       "dependencies": []
-    },
-    {
-      "name": "coral_xyz",
-      "version": "1.0.0-beta.8",
-      "dependencies": [
-        "analyzer",
-        "base_codecs",
-        "blockchain_utils",
-        "bs58",
-        "build",
-        "convert",
-        "crypto",
-        "cryptography",
-        "ed25519_hd_key",
-        "equatable",
-        "http",
-        "logging",
-        "meta",
-        "path",
-        "solana",
-        "source_gen",
-        "web_socket_channel"
-      ]
     },
     {
       "name": "pointycastle",
@@ -174,6 +132,22 @@
       "dependencies": []
     },
     {
+      "name": "yaml",
+      "version": "3.1.3",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner"
+      ]
+    },
+    {
+      "name": "webkit_inspection_protocol",
+      "version": "1.2.1",
+      "dependencies": [
+        "logging"
+      ]
+    },
+    {
       "name": "web_socket_channel",
       "version": "3.0.3",
       "dependencies": [
@@ -189,74 +163,6 @@
       "version": "1.4.0",
       "dependencies": [
         "collection"
-      ]
-    },
-    {
-      "name": "json_annotation",
-      "version": "4.9.0",
-      "dependencies": [
-        "meta"
-      ]
-    },
-    {
-      "name": "freezed_annotation",
-      "version": "2.4.4",
-      "dependencies": [
-        "collection",
-        "json_annotation",
-        "meta"
-      ]
-    },
-    {
-      "name": "ed25519_hd_key",
-      "version": "2.3.0",
-      "dependencies": [
-        "crypto",
-        "pinenacl"
-      ]
-    },
-    {
-      "name": "decimal",
-      "version": "3.2.4",
-      "dependencies": [
-        "intl",
-        "rational"
-      ]
-    },
-    {
-      "name": "cryptography",
-      "version": "2.9.0",
-      "dependencies": [
-        "collection",
-        "crypto",
-        "ffi",
-        "meta",
-        "typed_data"
-      ]
-    },
-    {
-      "name": "bip39",
-      "version": "1.0.6",
-      "dependencies": [
-        "crypto",
-        "hex",
-        "pointycastle"
-      ]
-    },
-    {
-      "name": "yaml",
-      "version": "3.1.3",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner"
-      ]
-    },
-    {
-      "name": "webkit_inspection_protocol",
-      "version": "1.2.1",
-      "dependencies": [
-        "logging"
       ]
     },
     {
@@ -521,30 +427,6 @@
       ]
     },
     {
-      "name": "logging",
-      "version": "1.3.0",
-      "dependencies": []
-    },
-    {
-      "name": "bs58",
-      "version": "1.0.2",
-      "dependencies": [
-        "base_x"
-      ]
-    },
-    {
-      "name": "blockchain_utils",
-      "version": "5.4.0",
-      "dependencies": []
-    },
-    {
-      "name": "base_codecs",
-      "version": "1.0.1",
-      "dependencies": [
-        "crypto"
-      ]
-    },
-    {
       "name": "js",
       "version": "0.7.2",
       "dependencies": []
@@ -565,46 +447,22 @@
       ]
     },
     {
-      "name": "web_socket",
-      "version": "1.0.1",
-      "dependencies": [
-        "web"
-      ]
-    },
-    {
-      "name": "pinenacl",
-      "version": "0.6.0",
-      "dependencies": []
-    },
-    {
-      "name": "rational",
-      "version": "2.2.3",
-      "dependencies": []
-    },
-    {
-      "name": "intl",
-      "version": "0.20.2",
-      "dependencies": [
-        "clock",
-        "meta",
-        "path"
-      ]
-    },
-    {
-      "name": "ffi",
-      "version": "2.1.5",
-      "dependencies": []
-    },
-    {
-      "name": "hex",
-      "version": "0.2.0",
-      "dependencies": []
-    },
-    {
       "name": "string_scanner",
       "version": "1.4.1",
       "dependencies": [
         "source_span"
+      ]
+    },
+    {
+      "name": "logging",
+      "version": "1.3.0",
+      "dependencies": []
+    },
+    {
+      "name": "web_socket",
+      "version": "1.0.1",
+      "dependencies": [
+        "web"
       ]
     },
     {
@@ -708,16 +566,6 @@
       "dependencies": []
     },
     {
-      "name": "base_x",
-      "version": "2.0.1",
-      "dependencies": []
-    },
-    {
-      "name": "clock",
-      "version": "1.1.2",
-      "dependencies": []
-    },
-    {
       "name": "file",
       "version": "7.0.1",
       "dependencies": [
@@ -728,6 +576,110 @@
     {
       "name": "fixnum",
       "version": "1.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "solana",
+      "version": "0.31.2+1",
+      "dependencies": [
+        "bip39",
+        "borsh_annotation",
+        "collection",
+        "convert",
+        "cryptography",
+        "decimal",
+        "ed25519_hd_key",
+        "freezed_annotation",
+        "http",
+        "json_annotation",
+        "typed_data",
+        "web_socket_channel"
+      ]
+    },
+    {
+      "name": "json_annotation",
+      "version": "4.9.0",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
+      "name": "freezed_annotation",
+      "version": "2.4.4",
+      "dependencies": [
+        "collection",
+        "json_annotation",
+        "meta"
+      ]
+    },
+    {
+      "name": "ed25519_hd_key",
+      "version": "2.3.0",
+      "dependencies": [
+        "crypto",
+        "pinenacl"
+      ]
+    },
+    {
+      "name": "decimal",
+      "version": "3.2.4",
+      "dependencies": [
+        "intl",
+        "rational"
+      ]
+    },
+    {
+      "name": "cryptography",
+      "version": "2.9.0",
+      "dependencies": [
+        "collection",
+        "crypto",
+        "ffi",
+        "meta",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "bip39",
+      "version": "1.0.6",
+      "dependencies": [
+        "crypto",
+        "hex",
+        "pointycastle"
+      ]
+    },
+    {
+      "name": "pinenacl",
+      "version": "0.6.0",
+      "dependencies": []
+    },
+    {
+      "name": "rational",
+      "version": "2.2.3",
+      "dependencies": []
+    },
+    {
+      "name": "intl",
+      "version": "0.20.2",
+      "dependencies": [
+        "clock",
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "ffi",
+      "version": "2.1.5",
+      "dependencies": []
+    },
+    {
+      "name": "hex",
+      "version": "0.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "clock",
+      "version": "1.1.2",
       "dependencies": []
     }
   ],
